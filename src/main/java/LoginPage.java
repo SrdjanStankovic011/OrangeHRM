@@ -17,6 +17,7 @@ public class LoginPage extends BasePage{
     @FindBy(css = ".oxd-alert-content-text")
     WebElement errorMessage;
 
+
     public LoginPage(ChromeDriver driver)
     {
         this.driver = driver;
